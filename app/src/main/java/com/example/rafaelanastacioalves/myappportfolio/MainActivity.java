@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView aRecyclerView;
     private RecyclerView.Adapter aAdapter;
     private RecyclerView.LayoutManager aLayoutManager;
-    private final String[] appList = new String[]{"app1", "app2"};
+    private final String[] appList = new String[]{"Popular Movies", "Stock Hawk", "Build it Bigger", "Make Your App Material", "Go Ubiquitous", "Capstone"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

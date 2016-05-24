@@ -45,7 +45,7 @@ public class AppListAdapter extends RecyclerView.Adapter<AppListAdapter.ViewHold
             @Override
             public void onClick(View v) {
                 Button button = (Button) v;
-                Toast.makeText(context ,"This button will launch my " + button.getText() + "app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context ,"This button will launch my " + button.getText() + " app!", Toast.LENGTH_SHORT).show();
             }
         });
     }
